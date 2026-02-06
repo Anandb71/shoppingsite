@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Details - ShoppingSite</title>
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="header-container">
+      <div class="logo">ShoppingSite</div>
+      <nav class="nav-links">
+        <a href="index.html#hero">Home</a>
+        <a href="index.html#products">Shop</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <div class="header-right">
+        <input type="text" placeholder="Search products..." class="search-bar" />
+        <div class="cart-icon" onclick="window.location.href='cart.html'">Cart <span class="cart-count">0</span></div>
+        <div class="hamburger">&#9776;</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="product-detail-container">
+    <p style="text-align: center; padding: 2rem; color: var(--text-secondary);">Loading details...</p>
+  </main>
+
+  <script src="scripts/product.js"></script>
+</body>
+
+</html>

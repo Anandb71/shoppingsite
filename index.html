@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShoppingSite Store</title>
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="header-container">
+      <div class="logo">ShoppingSite</div>
+
+      <nav class="nav-links">
+        <a href="#hero">Home</a>
+        <a href="#products">Catalog</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-right">
+        <input type="text" placeholder="Search products..." class="search-bar" />
+        <div class="cart-icon" onclick="window.location.href='cart.html'">Cart <span class="cart-count">0</span></div>
+        <div class="hamburger">&#9776;</div>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1>New Arrivals</h1>
+      <p>Electronics, Jewellery, and Men's Coding Fashion.</p>
+      <a href="#products" class="cta-button">View Catalog</a>
+    </div>
+  </section>
+
+  <section class="products-section" id="products">
+    <h2>All Products</h2>
+    <div class="product-grid" id="product-grid"></div>
+  </section>
+
+  <section id="about" class="info-section about-section">
+    <h2>About Us</h2>
+    <p>We are a direct-to-consumer retailer based in India, focusing on electronics and casual wear. Open 24/7 online.
+    </p>
+  </section>
+
+  <section id="contact" class="info-section contact-section">
+    <h2>Customer Service</h2>
+    <p>Contact us via our support channel.</p>
+  </section>
+
+  <script src="scripts/app.js" defer></script>
+</body>
+
+</html>

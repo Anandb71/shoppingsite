@@ -1,0 +1,13 @@
+{
+  "name": "shoppingsite",
+  "version": "1.0.0",
+  "keywords": [
+    "ecommerce",
+    "shopping",
+    "web",
+    "dark-theme"
+  ],
+  "author": "Anand B",
+  "license": "ISC",
+  "description": "A modern dark-themed e-commerce website"
+}
